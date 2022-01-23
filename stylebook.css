@@ -101,6 +101,42 @@ body {
 	width: 100%;
     height: auto;
 }
+
+#Audio a {	
+	width: 100%;
+    height: auto;
+	font-family: 'Roboto Slab', serif, Arial;
+    font-weight: 300;
+	font-size : 16px;
+	color: #00cccc;
+}
+
+#Audio2 a {	
+	width: 100%;
+    height: auto;
+	font-family: 'Roboto Slab', serif, Arial;
+    font-weight: 300;
+	font-size : 16px;
+	color: #00cccc;
+}
+
+#Audio3 a {	
+	width: 100%;
+    height: auto;
+	font-family: 'Roboto Slab', serif, Arial;
+    font-weight: 300;
+	font-size : 16px;
+	color: #00cccc;
+}
+
+#Audio4 a {	
+	width: 100%;
+    height: auto;
+	font-family: 'Roboto Slab', serif, Arial;
+    font-weight: 300;
+	font-size : 16px;
+	color: #00cccc;
+}
  
 #bookvideo {
 	width: 100%;
