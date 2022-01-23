@@ -1,0 +1,202 @@
+/*
+ * книги, цифровые книги Ebooks https://russianmonarchy.github.io/videoblog.html
+ * Книги, романы, скачать, читать онлайн, books, novels, writers, read online
+ */
+ 
+
+html {
+	background-color: #ffffff;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+body {	
+    font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 18px;
+	color: #000;
+    text-align: justify;
+	background-color: #fff;
+  -webkit-transition: width 2s, height 2s,-webkit-transform 2s;  
+  -moz-transition: width 2s, height 2s, -moz-transform 2s;
+  -o-transition: width 2s, height 2s, -o-transform 2s;
+   transition: width 2s, height 2s, transform 2s;
+}
+
+hr {
+  color: #86e527;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin: 10px 10px;
+  margin-bottom: 1px;
+  font-size : 24px;
+}
+
+h2, a {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 16px;
+	color: #423f3f;
+    text-align: justify;	
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 20px;
+	color: #423f3f;
+    text-align: justify;	
+}
+
+
+#Videoblog {
+    position: relative;	
+	width: 100%;
+	display: block;
+	background-color: #fff;
+    padding: 40px 7px;
+}
+
+.video-blog {
+    padding: 5% 5%;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+#footer {
+    padding: 7px 7px;
+	margin: 15px;
+}
+
+
+
+
+
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media screen and (max-width: 1280px) {
+
+
+
+
+
+}
+
+
+@media (max-width: 480px) {
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin: 10px 10px;
+  margin-bottom: 1px;
+  font-size : 24px;
+}
+
+h2, a {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 16px;
+	color: #423f3f;
+    text-align: justify;	
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 20px;
+	color: #423f3f;
+    text-align: justify;	
+}
+
+
+#Videoblog {
+    position: relative;	
+	width: 100%;
+	display: block;
+	background-color: #fff;
+    padding: 40px 7px;
+}
+
+.video-blog {
+    padding: 5% 5%;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+}
+
+@media (max-width: 360px) {
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin: 10px 10px;
+  margin-bottom: 1px;
+  font-size : 24px;
+}
+
+h2, a {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 16px;
+	color: #423f3f;
+    text-align: justify;	
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 20px;
+	color: #423f3f;
+    text-align: justify;	
+}
+
+
+#Videoblog {
+    position: relative;	
+	width: 100%;
+	display: block;
+	background-color: #fff;
+    padding: 40px 7px;
+}
+
+.video-blog {
+    padding: 5% 5%;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+}

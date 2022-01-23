@@ -1,0 +1,176 @@
+/*
+ * книги, цифровые книги Ebooks https://russianmonarchy.github.io/
+ * Книги, романы, скачать, читать онлайн, books, novels, writers, read online
+ */
+ 
+
+html {
+    margin: 0;
+	max-width: 100%;
+	background-color: #ffffff;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+body {
+    margin: 0;
+	max-width: 100%;
+    overflow-x: hidden;	
+    font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 18px;
+	color: #000;
+    text-align: justify;
+	background-color: #fff;
+  -webkit-transition: width 2s, height 2s,-webkit-transform 2s;  
+  -moz-transition: width 2s, height 2s, -moz-transform 2s;
+  -o-transition: width 2s, height 2s, -o-transform 2s;
+   transition: width 2s, height 2s, transform 2s;
+}
+
+hr {
+  color: #86e527;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin: 10px 10px;
+  margin-bottom: 20px;
+  font-size : 24px;
+}
+
+h2, a {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 16px;
+	color: #423f3f;
+    text-align: justify;	
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-style: bold;
+    font-weight: 300;
+	font-size : 20px;
+	color: #423f3f;
+    text-align: justify;	
+}
+
+.books-btn {
+    display: inline-block;
+	color: #86e527;
+	text-align: center;
+	background-color: transparent;
+	width: auto;
+    padding: 6px 12px;
+	line-height: 1.42857143;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #86e527;
+	margin: 5px;
+}
+
+.books-btn2 {
+    display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	background-color: #86e527;
+	width: auto;
+	line-height: 1.42857143;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #ffffff;
+	margin: 5px;
+}
+
+#books .books-btn:hover, .books-btn:focus, .books-btn:focus, .books-btn:active {
+	color: #ffffff;
+	text-align: center;
+	background-color: #86e527;
+	border-color: #86e527;
+}
+
+#books .books-btn2:hover, .books-btn2:focus, .books-btn2:focus, .books-btn2:active {
+	color: #86e527;
+	background-color: transparent;
+	border-color: #86e527;
+}
+
+.boxshadow  {
+    box-shadow: 3px 4px 4px 0 rgba(0, 0, 0, 0.1), 3px 5px 12px 0 rgba(0, 0, 0, 0.11);
+}
+
+#footer {
+    margin: 25px;
+}
+
+#books2 .books-btn:hover, .books-btn:focus, .books-btn:focus, .books-btn:active {
+	color: #ffffff;
+	text-align: center;
+	background-color: #86e527;
+	border-color: #86e527;
+}
+
+#books2 .books-btn2:hover, .books-btn2:focus, .books-btn2:focus, .books-btn2:active {
+	color: #86e527;
+	background-color: transparent;
+	border-color: #86e527;
+}
+
+
+
+
+
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media screen and (max-width: 1280px) {
+
+
+
+
+
+}
+
+
+@media (max-width: 480px) {
+
+
+
+}
+
+@media (max-width: 360px) {
+
+
+
+}

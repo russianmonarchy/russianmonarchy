@@ -1,0 +1,256 @@
+/*
+ * modern literature 21 century  https://literatura-21.ru
+ film critic, literatura, XXI century, 2015
+ https://literatura-21.ru/kinokritika.html
+------------------------------------------------ */
+* {
+  margin: 1px;
+  padding: 0;
+}
+
+html {
+    width: 100%;
+    background-color: #ffffff;
+    background: url(https://russianmonarchy.github.io/literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#content {
+    height: auto;
+}
+  
+.site-content {
+    position: relative;
+    margin: 2%;
+	padding: 2%;
+    width: 65%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: justify;
+    overflow-y: scroll;
+	opacity:0.9;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+ li a:link, li a:visited {
+    display: block;
+    width: 170px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #86e527;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+li a:hover, li a:active {
+    background-color: #0bc727;
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+body {
+    display: block;
+}
+
+h1,h2 {
+    font-weight: normal;
+    color: #f80000;
+    margin-left: 20px;
+    text-shadow: 4px 4px 5px #ffffff;
+   
+}
+  
+pre,p { 
+    font-family: 'Roboto Slab', serif, Arial; 
+    font-weight: 300; 
+	font-size: 20px; 
+	color: #000000;
+    text-align: justify;	 
+}
+
+hr { 
+   color: #fcc; 
+   background-color: #fcc;
+   border: 0px none; height: 1px; 
+   width: 75%;
+   margin-left: 20px;
+}
+
+footer {
+    margin-left: 20px;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media screen and (max-width: 1280px) {
+	
+* {
+  margin: 1px;
+  padding: 0;
+}
+
+html {
+    background-color: #ffffff;
+    background: url(https://russianmonarchy.github.io/literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    display: block;
+	-webkit-transition: width 2s, height 2s,-webkit-transform 2s;  
+	-moz-transition: width 2s, height 2s, -moz-transform 2s;
+	-o-transition: width 2s, height 2s, -o-transform 2s;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+#content {
+    height: auto;
+}
+  
+.site-content {
+    position: relative;
+    margin: 2%;
+	padding: 2%;
+    width: 93%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: justify;
+    overflow-y: scroll;
+	opacity:0.9;
+}
+
+pre,p { 
+    font-family: 'Roboto Slab', serif, Arial; 
+    font-weight: 300; 
+	font-size: 20px; 
+	color: #000000;
+    text-align: justify;	 
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+  }
+
+  
+@media (max-width: 480px) {
+	
+* {
+  margin: 1px;
+  padding: 0;
+}
+
+html {
+    background-color: #ffffff;
+    background: url(https://russianmonarchy.github.io/literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    display: block;
+	-webkit-transition: width 2s, height 2s,-webkit-transform 2s;  
+	-moz-transition: width 2s, height 2s, -moz-transform 2s;
+	-o-transition: width 2s, height 2s, -o-transform 2s;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+#content {
+    height: auto;
+}
+  
+.site-content {
+    position: relative;
+    margin: 2%;
+	padding: 2%;
+    width: 93%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: justify;
+    overflow-y: scroll;
+	opacity:0.9;
+}
+
+pre,p { 
+    font-family: 'Roboto Slab', serif, Arial; 
+    font-weight: 300; 
+	font-size: 20px; 
+	color: #000000;
+    text-align: justify;	 
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+  }
+  

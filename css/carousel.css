@@ -1,0 +1,175 @@
+/* GLOBAL STYLES web sites
+-------------------------------------------------- */
+
+body {
+  padding-bottom: 4px;
+  background-color: #fff;
+}
+
+
+/* Special class */
+.navbar-wrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/*  */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: auto;
+  margin-bottom: 7px;
+  background-color: #ffffff;
+}
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: auto;
+  background-color: #fff;
+}
+.carousel-inner > .item > img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+}
+
+.carousel-caption h1 {
+    margin-bottom: 7px;
+    font-size: 36px;
+  }
+  
+  .carousel-caption p {
+    margin-bottom: 7px;
+    font-size: 24px;
+  }
+
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.featurette-divider {
+  margin: 80px 0; 
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+	
+  .navbar-wrapper {
+    margin-top: 7px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  
+.carousel-caption h1 {
+    margin-bottom: 7px;
+    font-size: 36px;
+  }
+  
+  .carousel-caption p {
+    margin-bottom: 7px;
+    font-size: 20px;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+	
+.carousel-caption h1 {
+    margin-bottom: 7px;
+    font-size: 24px;
+}
+  
+.carousel-caption p {
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+	
+}
+
+@media (max-width: 480px) {
+	
+.carousel-caption h1 {
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+  
+ .carousel-caption p {
+    margin-bottom: 7px;
+    font-size: 10px;
+}
+	
+}
+
+@media (max-width: 360px) {
+	
+.carousel-caption h1 {
+    margin-bottom: 7px;
+    font-size: 10px;
+  }
+  
+ .carousel-caption p {
+    margin-bottom: 7px;
+    font-size: 7px;
+  }
+}

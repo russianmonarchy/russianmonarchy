@@ -1,0 +1,360 @@
+/*
+ * Современная литература modern literature  https://literatura-21.ru
+ * Книги, статьи, романы, скачать онлайн, писатели
+ */
+ 
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+html {
+	background-color: #ffffff;
+    background: url(literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+body {
+    display: block;
+}
+
+.book {
+    display: block;
+    margin-left: auto;
+    margin-right: right;
+	height: auto;
+    width: 90%;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 8px;
+	overflow-y: scroll;
+    opacity : 0.89999997615814208984375;
+}
+
+h1 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+h2 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+h3 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+p { 
+  text-align: justify;
+  font-family: "Times New Roman", Arial, serif;
+  font-size: 18px;
+  color: #000000;
+  }
+
+strong {
+   color: #336633;
+   font-size: 18px; 
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media screen and (max-width: 1280px) {
+
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+html {
+	background-color: #ffffff;
+    background: url(literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+body {
+    display: block;
+}
+
+.book {
+    display: block;
+    margin-left: auto;
+    margin-right: right;
+	height: auto;
+    width: 90%;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 8px;
+	overflow-y: scroll;
+    opacity : 0.89999997615814208984375;
+}
+
+h1 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+h2 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+h3 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+p { 
+  text-align: justify;
+  font-family: "Times New Roman", Arial, serif;
+  font-size: 18px;
+  color: #000000;
+  }
+
+strong {
+   color: #336633;
+   font-size: 18px; 
+}
+
+}
+
+
+@media (max-width: 480px) {
+
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+html {
+	background-color: #ffffff;
+    background: url(literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+body {
+    display: block;
+}
+
+.book {
+    display: block;
+    margin-left: auto;
+    margin-right: right;
+	height: auto;
+    width: 90%;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 8px;
+	overflow-y: scroll;
+    opacity : 0.89999997615814208984375;
+}
+
+h1 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+h2 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+h3 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+p { 
+  text-align: justify;
+  font-family: "Times New Roman", Arial, serif;
+  font-size: 18px;
+  color: #000000;
+  }
+
+strong {
+   color: #336633;
+   font-size: 18px; 
+}
+
+}
+
+@media (max-width: 360px) {
+
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+html {
+	background-color: #ffffff;
+    background: url(literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+body {
+    display: block;
+}
+
+.book {
+    display: block;
+    margin-left: auto;
+    margin-right: right;
+	height: auto;
+    width: 90%;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 8px;
+	overflow-y: scroll;
+    opacity : 0.89999997615814208984375;
+}
+
+h1 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+h2 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+h3 {
+    font-weight: normal;
+	font-family: "Times New Roman", Arial, serif;
+	font-size: 20px;
+    color: red;
+    margin-left: 20px;
+}
+
+p { 
+  text-align: justify;
+  font-family: "Times New Roman", Arial, serif;
+  font-size: 18px;
+  color: #000000;
+  }
+
+strong {
+   color: #336633;
+   font-size: 18px; 
+}
+
+}

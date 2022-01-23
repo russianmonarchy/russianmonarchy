@@ -1,0 +1,454 @@
+
+/*
+ * modern literature 21 century  https://literatura-21.ru
+------------------------------------------------ */
+* {
+  margin: 3px;
+  padding: 0;
+}
+ 
+html {
+    background: url(https://russianmonarchy.github.io/literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+ li a:link, li a:visited {
+    display: block;
+    width: 180px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #86e527;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+li a:hover, li a:active {
+    background-color: #0bc727;
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+body {
+    display: block;
+	margin: 7px;
+	padding: 3px;
+}
+
+.container {
+    position: relative;
+    vertical-align: middle;	
+    margin: 5px auto;
+	padding: 5px;
+    width: 85%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: justify;
+	opacity: 0.9;
+	box-sizing: content-box;
+	filter: alpha(opacity=70);
+}
+
+.poetry {
+    position: relative;
+    vertical-align: middle;	
+    margin: 5px auto;
+	padding: 5px;
+    width: 70%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: justify;
+	opacity: 1;
+}
+
+h1,h2 {
+    font-weight: normal;
+	font-size: 24px;
+    color: #006600;
+    margin-left: 20px;
+    text-shadow: 4px 4px 5px #ffffff;
+   
+}
+
+h3 {
+    font-weight: normal;
+	font-size: 20px;
+    color: #006600;
+    margin-left: 20px;
+    text-shadow: 4px 4px 5px #ffffff;
+   
+}
+
+pre,p { 
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+	font-size : 19px;
+	color: #333333;
+    text-align: justify;	 
+}
+
+hr {
+     color: #00ffdd;
+}
+
+.foto img {
+    height: auto;
+	width: 100%;
+	max-height: 57px;
+	max-width: 851px;
+    box-shadow: 7px 7px 5px #E0E0E0;
+}
+
+.fotos img {
+    height: auto;
+	width: 100%;
+	max-height: 1000px;
+	max-width: 1000px;
+    box-shadow: 7px 7px 5px #E0E0E0;
+}
+
+.fotos2 img {
+    height: auto;
+	width: 100%;
+	max-height: 533px;
+	max-width: 800px;
+    box-shadow: 7px 7px 5px #E0E0E0;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media screen and (max-width: 1280px) {
+
+* {
+  margin: 3px;
+  padding: 0;
+}
+ 
+html {
+    background: url(https://russianmonarchy.github.io/literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+ li a:link, li a:visited {
+    display: block;
+    width: 180px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #86e527;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+li a:hover, li a:active {
+    background-color: #0bc727;
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+body {
+    display: block;
+	margin: 7px;
+	padding: 3px;
+}
+
+.container {
+    position: relative;
+    vertical-align: middle;	
+    margin: 5px auto;
+	padding: 5px;
+    width: 95%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: justify;
+	opacity: 0.9;
+	box-sizing: content-box;
+	filter: alpha(opacity=70);
+}
+
+.poetry {
+    position: relative;
+    vertical-align: middle;	
+    margin: 5px auto;
+	padding: 5px;
+    width: 85%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: justify;
+	opacity: 1;
+}
+
+h1,h2 {
+    font-weight: normal;
+	font-size: 24px;
+    color: #006600;
+    margin-left: 20px;
+    text-shadow: 4px 4px 5px #ffffff;
+   
+}
+
+h3 {
+    font-weight: normal;
+	font-size: 18px;
+    color: #006600;
+    margin-left: 20px;
+    text-shadow: 4px 4px 5px #ffffff;
+   
+}
+  
+pre,p { 
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+	font-size : 19px;
+	color: #333333;
+    text-align: justify;	 
+}
+
+hr {
+     color: #00ffdd;
+}
+
+.foto img {
+    height: auto;
+	width: 100%;
+	max-height: 57px;
+	max-width: 851px;
+    box-shadow: 7px 7px 5px #E0E0E0;
+}
+
+.fotos img {
+    height: auto;
+	width: 100%;
+	max-height: 467px;
+	max-width: 700px;
+    box-shadow: 7px 7px 5px #E0E0E0;
+}
+
+.fotos2 img {
+    height: auto;
+	width: 100%;
+	max-height: 533px;
+	max-width: 800px;
+    box-shadow: 7px 7px 5px #E0E0E0;
+}
+
+
+}
+
+@media (max-width: 480px) {
+
+* {
+  margin: 3px;
+  padding: 0;
+}
+ 
+html {
+    background: url(https://russianmonarchy.github.io/literatura.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+ li a:link, li a:visited {
+    display: block;
+    width: 180px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #86e527;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+li a:hover, li a:active {
+    background-color: #0bc727;
+}
+
+/* link */
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #000033;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+body {
+    display: block;
+	margin: 7px;
+	padding: 3px;
+}
+
+.container {
+    position: relative;
+    vertical-align: middle;	
+    margin: 5px auto;
+	padding: 5px;
+    width: 95%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: justify;
+	opacity: 0.9;
+	box-sizing: content-box;
+	filter: alpha(opacity=70);
+}
+
+.poetry {
+    position: relative;
+    vertical-align: middle;	
+    margin: 5px auto;
+	padding: 5px;
+    width: 85%;
+    height: auto;
+    background-color: #ffffff;
+    text-align: justify;
+	opacity: 1;
+}
+
+h1,h2 {
+    font-weight: normal;
+	font-size: 18px;
+    color: #006600;
+    margin-left: 20px;
+    text-shadow: 4px 4px 5px #ffffff;
+   
+}
+
+h3 {
+    font-weight: normal;
+	font-size: 14px;
+    color: #006600;
+    margin-left: 20px;
+    text-shadow: 4px 4px 5px #ffffff;
+   
+}
+  
+pre,p { 
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+	font-size : 19px;
+	color: #333333;
+    text-align: justify; 
+}
+
+hr {
+     color: #00ffdd;
+}
+
+.foto img {
+    height: auto;
+	width: 100%;
+	max-height: 57px;
+	max-width: 851px;
+    box-shadow: 7px 7px 5px #E0E0E0;
+}
+
+.fotos img {
+    height: auto;
+	width: 100%;
+	max-height: 467px;
+	max-width: 700px;
+    box-shadow: 7px 7px 5px #E0E0E0;
+}
+
+.fotos2 img {
+    height: auto;
+	width: 100%;
+    max-height: 533px;
+	max-width: 800px;
+    box-shadow: 7px 7px 5px #E0E0E0;
+}
+
+}
