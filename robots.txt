@@ -1,0 +1,9 @@
+User-agent: *
+
+User-agent: Googlebot
+
+User-agent: Yandex
+
+Host: https://russianmonarchy.github.io/
+
+Sitemap: https://russianmonarchy.github.io/sitemap.xml
