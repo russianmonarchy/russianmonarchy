@@ -136,7 +136,7 @@ h2, a {
 
 .books-btn {
     display: inline-block;
-	color: #86e527;
+	color: #e60000;
 	text-align: center;
 	background-color: transparent;
 	width: auto;
@@ -154,7 +154,7 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #86e527;
+    border: 1px solid #e60000;
 	margin: 5px;
 }
 
@@ -162,7 +162,7 @@ h2, a {
     display: inline-block;
 	color: #ffffff;
 	text-align: center;
-	background-color: #86e527;
+	background-color: #e60000;
 	width: auto;
 	line-height: 1.42857143;
     padding: 6px 12px;
@@ -178,7 +178,7 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #ffffff;
+    border: 1px solid #e60000;
 	margin: 5px;
 }
 
