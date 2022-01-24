@@ -136,7 +136,7 @@ h2, a {
 
 .books-btn {
     display: inline-block;
-	color: #e60000;
+	color: #fd0c0c;
 	text-align: center;
 	background-color: transparent;
 	width: auto;
@@ -154,7 +154,7 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #e60000;
+    border: 1px solid #fd0c0c;
 	margin: 5px;
 }
 
@@ -178,21 +178,21 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #e60000;
+    border: 1px solid #fd0c0c;
 	margin: 5px;
 }
 
 #books .books-btn:hover, .books-btn:focus, .books-btn:focus, .books-btn:active {
 	color: #ffffff;
 	text-align: center;
-	background-color: #86e527;
-	border-color: #86e527;
+	background-color: #fd0c0c;
+	border-color: #fd0c0c;
 }
 
 #books .books-btn2:hover, .books-btn2:focus, .books-btn2:focus, .books-btn2:active {
-	color: #86e527;
+	color: #fd0c0c;
 	background-color: transparent;
-	border-color: #86e527;
+	border-color: #fd0c0c;
 }
 
 #filmcritic {
@@ -639,7 +639,7 @@ h2, a {
 #literatura {	
 	width: 100%;
 	display: inline-block;
-	background: url(https://russianmonarchy.github.io/img/literatura.gif) no-repeat center center fixed;
+	background: url(https://russianmonarchy.github.io/img/russian-monarchy-novel.jpg) no-repeat center center fixed;
 	background-color: #fff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -695,7 +695,7 @@ h2, a {
 
 .books-btn {
     display: inline-block;
-	color: #86e527;
+	color: #fd0c0c;
 	text-align: center;
 	background-color: transparent;
 	width: auto;
@@ -713,7 +713,7 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #86e527;
+    border: 1px solid #fd0c0c;
 	margin: 5px;
 }
 
@@ -721,7 +721,7 @@ h2, a {
     display: inline-block;
 	color: #ffffff;
 	text-align: center;
-	background-color: #86e527;
+	background-color: #e60000;
 	width: auto;
 	line-height: 1.42857143;
     padding: 6px 12px;
@@ -737,21 +737,21 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #ffffff;
+    border: 1px solid #fd0c0c;
 	margin: 5px;
 }
 
 #books .books-btn:hover, .books-btn:focus, .books-btn:focus, .books-btn:active {
 	color: #ffffff;
 	text-align: center;
-	background-color: #86e527;
-	border-color: #86e527;
+	background-color: #fd0c0c;
+	border-color: #fd0c0c;
 }
 
 #books .books-btn2:hover, .books-btn2:focus, .books-btn2:focus, .books-btn2:active {
-	color: #86e527;
+	color: #fd0c0c;
 	background-color: transparent;
-	border-color: #86e527;
+	border-color: #fd0c0c;
 }
 
 #filmcritic {
@@ -802,7 +802,7 @@ h2, a {
     width: 100%;
 	display: inline-block;
 	background: url(https://russianmonarchy.github.io/img/literature.jpg) no-repeat center center fixed;
-	background-color: #ffffff;
+	background-color: #86e527;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -813,6 +813,10 @@ h2, a {
 #nobelprize .nobellaureate  {
     position: relative;
     z-index: 1;
+}
+
+#nobelprize a   {
+    color: #ffffff;
 }
 
 #nobelprize img {
@@ -860,7 +864,7 @@ h2, a {
 #publication {	
 	width: 100%;
 	display: inline-block;
-	background: url(https://russianmonarchy.github.io/img/literatura.gif) no-repeat center center fixed;
+	background: url(https://russianmonarchy.github.io/img/modernartpublication.jpg) no-repeat center center fixed;
 	background-color: #fff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -916,6 +920,17 @@ h2, a {
 	opacity: 0.9;
 }
 
+#monarchyEn {	
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+    padding: 50px 7px;
+}
+
 #Auction {	
 	width: 100%;
 	display: inline-block;
@@ -968,6 +983,126 @@ h2, a {
 	background-color: #fff;
 	border-color: #fd1010;
 	text-decoration: none;
+}
+
+/* https://russianmonarchy.github.io/ contact */ 
+
+#contact {
+	width: 100%;
+	display: inline-block;
+	background: url(https://russianmonarchy.github.io/img/Footer.png) no-repeat center center fixed;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+    padding: 50px 17px;
+}
+
+#contact .overlay {
+    position: relative;
+    z-index: 1;
+	padding: 30px 0 30px 0;
+	margin: 40px;
+}
+	
+#contact h3 {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+}
+
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	margin: 10px 0;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #fff;
+	background-color: rgba(255,255,255,0.3);
+	border: 0;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#contact .form-control:focus {
+	border-color: inherit;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+
+.overlay {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-weight: 300;
+	font-size : 18px;
+	color: #000;
+    text-align: justify;
+	background-color: #000;
+	opacity: 0.7;
+}
+
+
+}
+
+.form-control::-webkit-input-placeholder {
+color: #ccc;
+}
+.form-control:-moz-placeholder {
+color: #ccc;
+}
+.form-control::-moz-placeholder {
+color: #ccc;
+}
+.form-control:-ms-input-placeholder {
+color: #ccc;
+}
+
+.btn-contact {
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	padding: 8px 20px;
+	margin: 0;
+	font-size: 15px;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+
+.btn-contact:hover, .btn-contact:focus, .btn-contact:focus, .btn-contact:active, .btn-contact:active {
+	color: #ffffff;
+	background-color: #389107;
+	border-color: #ffffff;
+}
+
+.btn2:active, .btn2.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+a:focus, .btn2:focus, .btn2:active:focus, .btn2.active:focus, .btn2:focus, .btn2:active:focus, .btn2.active:focus {
+	outline: none;
+	outline-offset: none;
+}
+
+#contact .btn2 {
+	margin-top: 10px;
+}
+
+#contact p {
+	color: #ffffff;
+	font-size: 14px;
+	margin: 0 0 10px;
+	margin-top: 51px;
+	padding: 0 0;
 }
 
 
@@ -1040,7 +1175,7 @@ hr {
 h2, a {
 	font-family: 'Roboto Slab', serif, Arial;
     font-weight: 300;
-	font-size : 18px;
+	font-size : 16px;
 	color: #423f3f;
     text-align: justify;
     text-decoration: none;	
@@ -1053,7 +1188,7 @@ h2, a {
 #literatura {	
 	width: 100%;
 	display: inline-block;
-	background: url(https://russianmonarchy.github.io/img/literatura.gif) no-repeat center center fixed;
+	background: url(https://russianmonarchy.github.io/img/russian-monarchy-novel.jpg) no-repeat center center fixed;
 	background-color: #fff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1109,7 +1244,7 @@ h2, a {
 
 .books-btn {
     display: inline-block;
-	color: #86e527;
+	color: #fd0c0c;
 	text-align: center;
 	background-color: transparent;
 	width: auto;
@@ -1127,7 +1262,7 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #86e527;
+    border: 1px solid #fd0c0c;
 	margin: 5px;
 }
 
@@ -1135,7 +1270,7 @@ h2, a {
     display: inline-block;
 	color: #ffffff;
 	text-align: center;
-	background-color: #86e527;
+	background-color: #e60000;
 	width: auto;
 	line-height: 1.42857143;
     padding: 6px 12px;
@@ -1151,21 +1286,21 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #ffffff;
+    border: 1px solid #fd0c0c;
 	margin: 5px;
 }
 
 #books .books-btn:hover, .books-btn:focus, .books-btn:focus, .books-btn:active {
 	color: #ffffff;
 	text-align: center;
-	background-color: #86e527;
-	border-color: #86e527;
+	background-color: #fd0c0c;
+	border-color: #fd0c0c;
 }
 
 #books .books-btn2:hover, .books-btn2:focus, .books-btn2:focus, .books-btn2:active {
-	color: #86e527;
+	color: #fd0c0c;
 	background-color: transparent;
-	border-color: #86e527;
+	border-color: #fd0c0c;
 }
 
 #filmcritic {
@@ -1216,7 +1351,7 @@ h2, a {
     width: 100%;
 	display: inline-block;
 	background: url(https://russianmonarchy.github.io/img/literature.jpg) no-repeat center center fixed;
-	background-color: #ffffff;
+	background-color: #86e527;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1227,6 +1362,10 @@ h2, a {
 #nobelprize .nobellaureate  {
     position: relative;
     z-index: 1;
+}
+
+#nobelprize a   {
+    color: #ffffff;
 }
 
 #nobelprize img {
@@ -1274,7 +1413,7 @@ h2, a {
 #publication {	
 	width: 100%;
 	display: inline-block;
-	background: url(https://russianmonarchy.github.io/img/literatura.gif) no-repeat center center fixed;
+	background: url(https://russianmonarchy.github.io/img/modernartpublication.jpg) no-repeat center center fixed;
 	background-color: #fff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1330,6 +1469,17 @@ h2, a {
 	opacity: 0.9;
 }
 
+#monarchyEn {	
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+    padding: 50px 7px;
+}
+
 #Auction {	
 	width: 100%;
 	display: inline-block;
@@ -1382,6 +1532,126 @@ h2, a {
 	background-color: #fff;
 	border-color: #fd1010;
 	text-decoration: none;
+}
+
+/* https://russianmonarchy.github.io/ contact */ 
+
+#contact {
+	width: 100%;
+	display: inline-block;
+	background: url(https://russianmonarchy.github.io/img/Footer.png) no-repeat center center fixed;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+    padding: 50px 17px;
+}
+
+#contact .overlay {
+    position: relative;
+    z-index: 1;
+	padding: 30px 0 30px 0;
+	margin: 40px;
+}
+	
+#contact h3 {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+}
+
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	margin: 10px 0;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #fff;
+	background-color: rgba(255,255,255,0.3);
+	border: 0;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#contact .form-control:focus {
+	border-color: inherit;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+
+.overlay {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-weight: 300;
+	font-size : 18px;
+	color: #000;
+    text-align: justify;
+	background-color: #000;
+	opacity: 0.7;
+}
+
+
+}
+
+.form-control::-webkit-input-placeholder {
+color: #ccc;
+}
+.form-control:-moz-placeholder {
+color: #ccc;
+}
+.form-control::-moz-placeholder {
+color: #ccc;
+}
+.form-control:-ms-input-placeholder {
+color: #ccc;
+}
+
+.btn-contact {
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	padding: 8px 20px;
+	margin: 0;
+	font-size: 15px;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+
+.btn-contact:hover, .btn-contact:focus, .btn-contact:focus, .btn-contact:active, .btn-contact:active {
+	color: #ffffff;
+	background-color: #389107;
+	border-color: #ffffff;
+}
+
+.btn2:active, .btn2.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+a:focus, .btn2:focus, .btn2:active:focus, .btn2.active:focus, .btn2:focus, .btn2:active:focus, .btn2.active:focus {
+	outline: none;
+	outline-offset: none;
+}
+
+#contact .btn2 {
+	margin-top: 10px;
+}
+
+#contact p {
+	color: #ffffff;
+	font-size: 14px;
+	margin: 0 0 10px;
+	margin-top: 51px;
+	padding: 0 0;
 }
 
 }
@@ -1459,13 +1729,12 @@ h2, a {
 
 #footer {
     padding: 7px 7px;
-	margin: 15px;
 }
 
 #literatura {	
 	width: 100%;
 	display: inline-block;
-	background: url(https://russianmonarchy.github.io/img/literatura.gif) no-repeat center center fixed;
+	background: url(https://russianmonarchy.github.io/img/russian-monarchy-novel.jpg) no-repeat center center fixed;
 	background-color: #fff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1487,7 +1756,7 @@ h2, a {
 .modern {
 	font-family: 'Roboto Slab', serif, Arial;
     font-weight: 300;
-	font-size : 18px;
+	font-size : 20px;
 	color: #000;
     text-align: justify;
 	background-color: #fff;
@@ -1521,7 +1790,7 @@ h2, a {
 
 .books-btn {
     display: inline-block;
-	color: #86e527;
+	color: #fd0c0c;
 	text-align: center;
 	background-color: transparent;
 	width: auto;
@@ -1539,7 +1808,7 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #86e527;
+    border: 1px solid #fd0c0c;
 	margin: 5px;
 }
 
@@ -1547,7 +1816,7 @@ h2, a {
     display: inline-block;
 	color: #ffffff;
 	text-align: center;
-	background-color: #86e527;
+	background-color: #e60000;
 	width: auto;
 	line-height: 1.42857143;
     padding: 6px 12px;
@@ -1563,21 +1832,21 @@ h2, a {
     -ms-user-select: none;
     user-select: none;
     background-image: none;
-    border: 1px solid #ffffff;
+    border: 1px solid #fd0c0c;
 	margin: 5px;
 }
 
 #books .books-btn:hover, .books-btn:focus, .books-btn:focus, .books-btn:active {
 	color: #ffffff;
 	text-align: center;
-	background-color: #86e527;
-	border-color: #86e527;
+	background-color: #fd0c0c;
+	border-color: #fd0c0c;
 }
 
 #books .books-btn2:hover, .books-btn2:focus, .books-btn2:focus, .books-btn2:active {
-	color: #86e527;
+	color: #fd0c0c;
 	background-color: transparent;
-	border-color: #86e527;
+	border-color: #fd0c0c;
 }
 
 #filmcritic {
@@ -1628,7 +1897,7 @@ h2, a {
     width: 100%;
 	display: inline-block;
 	background: url(https://russianmonarchy.github.io/img/literature.jpg) no-repeat center center fixed;
-	background-color: #ffffff;
+	background-color: #86e527;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1639,6 +1908,10 @@ h2, a {
 #nobelprize .nobellaureate  {
     position: relative;
     z-index: 1;
+}
+
+#nobelprize a   {
+    color: #ffffff;
 }
 
 #nobelprize img {
@@ -1686,7 +1959,7 @@ h2, a {
 #publication {	
 	width: 100%;
 	display: inline-block;
-	background: url(https://russianmonarchy.github.io/img/literatura.gif) no-repeat center center fixed;
+	background: url(https://russianmonarchy.github.io/img/modernartpublication.jpg) no-repeat center center fixed;
 	background-color: #fff;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1709,7 +1982,7 @@ h2, a {
 .publications   {
 	font-family: 'Roboto Slab', serif, Arial;
     font-weight: 300;
-	font-size : 18px;
+	font-size : 20px;
 	color: #000;
     text-align: justify;
 	background-color: #fff;
@@ -1735,11 +2008,22 @@ h2, a {
 .monarchy-section   {
 	font-family: 'Roboto Slab', serif, Arial;
     font-weight: 300;
-	font-size : 18px;
+	font-size : 20px;
 	color: #000;
     text-align: justify;
 	background-color: #fff;
 	opacity: 0.9;
+}
+
+#monarchyEn {	
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+    padding: 50px 7px;
 }
 
 #Auction {	
@@ -1795,5 +2079,118 @@ h2, a {
 	border-color: #fd1010;
 	text-decoration: none;
 }
+
+/* https://russianmonarchy.github.io/ contact */ 
+
+#contact {
+	width: 100%;
+	display: inline-block;
+	background: url(https://russianmonarchy.github.io/img/Footer.png) no-repeat center center fixed;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+    padding: 50px 17px;
+}
+
+#contact .overlay {
+    position: relative;
+    z-index: 1;
+	padding: 30px 0 30px 0;
+	margin: 40px;
+}
+	
+#contact h3 {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+}
+
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	margin: 10px 0;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #fff;
+	background-color: rgba(255,255,255,0.3);
+	border: 0;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#contact .form-control:focus {
+	border-color: inherit;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+
+.overlay {
+	font-family: 'Roboto Slab', serif, Arial;
+    font-weight: 300;
+	font-size : 18px;
+	color: #000;
+    text-align: justify;
+	background-color: #000;
+	opacity: 0.7;
+}
+
+
+}
+
+.form-control::-webkit-input-placeholder {
+color: #ccc;
+}
+.form-control:-moz-placeholder {
+color: #ccc;
+}
+.form-control::-moz-placeholder {
+color: #ccc;
+}
+.form-control:-ms-input-placeholder {
+color: #ccc;
+}
+
+.btn-contact {
+	color: #ffffff;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	padding: 8px 20px;
+	margin: 0;
+	font-size: 15px;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+
+.btn-contact:hover, .btn-contact:focus, .btn-contact:focus, .btn-contact:active, .btn-contact:active {
+	color: #ffffff;
+	background-color: #389107;
+	border-color: #ffffff;
+}
+
+.btn2:active, .btn2.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+a:focus, .btn2:focus, .btn2:active:focus, .btn2.active:focus, .btn2:focus, .btn2:active:focus, .btn2.active:focus {
+	outline: none;
+	outline-offset: none;
+}
+
+#contact .btn2 {
+	margin-top: 10px;
+}
+
 
 }
