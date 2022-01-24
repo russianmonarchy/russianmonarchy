@@ -1,5 +1,5 @@
 /*
- * Современная литература 21 века Ганова Людмила Цуриков Илья Ket Gun  https://russianmonarchy.github.io/
+ * РУССКАЯ МОНАРХИЯ 2010 РОМАН АВТОР ПИСАТЕЛЬ Ганова Людмила Цуриков Илья Ket Gun  https://russianmonarchy.github.io/
  * Writer Ganova Ludmila Tsurikov Ilya, Ket Gun books, author's articles film critic
  */
  
@@ -24,6 +24,17 @@ body {
 }
 
 #booknew2 {	
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+    padding: 7px 7px;
+}
+
+#investigation {	
 	width: 100%;
 	display: inline-block;
 	background-color: #fff;
